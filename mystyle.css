@@ -272,7 +272,7 @@ p { margin: 0px; }
 a { color: rgb(68, 68, 68); border-bottom: 1px solid rgb(68, 68, 68); }
 a:hover { text-decoration: none ! important; }
 .hero { background-color: rgb(255,255,255); }
-.header-title { background-color: rgba(0, 194, 145, 0.8); color: rgb(255, 255, 255); text-align: center; }
+.header-title { background-color: rgba(50, 50, 50, 0.8); color: rgb(255, 255, 255); text-align: center; }
 h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1px; font-family: "Alright Sans Light"; font-style: normal; font-weight: normal; text-rendering: optimizespeed; }
 #section-01 .section-banner { height: 300px; background: url('section-header.jpg') no-repeat scroll 0% 0% transparent; }
 
@@ -282,9 +282,9 @@ h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1
 .circle span { display: block; font-size: 40px; padding-top: 50%; margin: 0px auto; font-weight: bold; text-align: center; position: relative; z-index: 2; }
 .countries-list { border-top: 1px solid rgb(228, 228, 228); margin-top: 60px; padding-top: 60px; padding-bottom: 90px; text-align: center; }
 .circle:hover:after { opacity: 0.9; }
-.circle.blue:after { background: none repeat scroll 0% 0% rgb(41, 135, 236); }
-.circle.orange:after { background: none repeat scroll 0% 0% rgb(255, 132, 0); }
-.circle.teal:after { background: none repeat scroll 0% 0% rgb(0, 194, 145); }
+.circle.blue:after { background: none repeat scroll 0% 0% #333; }
+.circle.orange:after { background: none repeat scroll 0% 0% #333; }
+.circle.teal:after { background: none repeat scroll 0% 0% #333; }
 
 .circle.chess { background: url('img/chess.jpg') no-repeat scroll 0% 0% transparent; }
 .circle.poker { background: url('img/poker.jpg') no-repeat scroll 0% 0% transparent; }
@@ -304,7 +304,7 @@ h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1
 #section-06 #open-source { border: medium none; padding-top: 75px; padding-bottom: 55px; display: block; min-height: 130px; height: auto; position: relative; }
 #section-06 #open-source .arrow-link-white { border: medium none; width: 0px; }
 #section-06 #open-source .arrow-link-white:hover { right: 2px; color: rgb(255, 255, 255); opacity: 1; }
-#section-06 #open-source { background: rgb(227, 16, 53); opacity: 0.8; transition: opacity 0.10s ease-in-out 0s; }
+#section-06 #open-source { background: rgba(50, 50, 50, 0.8); opacity: 0.8; transition: opacity 0.10s ease-in-out 0s; }
 #section-06 #open-source:hover { opacity: 1; }
 
 .arrow-link-white { color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; text-decoration: underline; position: relative; border-bottom: 1px solid rgb(255, 255, 255); }
@@ -318,7 +318,7 @@ h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1
 .row-fluid .offset5 { margin-left: 47%; }
 
 a {
-    color: #4183c4;
+    color: #999;
     border: medium none;
 }
 
