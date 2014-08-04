@@ -293,7 +293,7 @@ h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1
 .circle.writing { background: url('img/writing.jpg') no-repeat scroll 0% 0% transparent; }
 .circle.music { background: url('img/music.jpg') no-repeat scroll 0% 0% transparent; }
 .circle.fashion { background: url('img/fashion.jpg') no-repeat scroll 0% 0% transparent; }
-.circle.fitness { background: url('img/fitness.jpg') no-repeat scroll 0% 0% transparent; }
+.circle.cycling { background: url('img/cycling.jpg') no-repeat scroll 0% 0% transparent; }
 .circle.cooking { background: url('img/cooking.jpg') no-repeat scroll 0% 0% transparent; }
 .circle.languages { background: url('img/languages.jpg') no-repeat scroll 0% 0% transparent; }
 
@@ -319,7 +319,6 @@ h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1
 
 a {
     color: #4183c4;
-    /*color: rgb(0, 194, 145);*/
     border: medium none;
 }
 
