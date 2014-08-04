@@ -316,3 +316,14 @@ h3 {display: inline-block; font-size: 24px; line-height: 50px; letter-spacing: 1
 
 .row-fluid .span1 { width: 6.38298%; }
 .row-fluid .offset5 { margin-left: 47%; }
+
+a {
+    color: #4183c4;
+    /*color: rgb(0, 194, 145);*/
+    border: medium none;
+}
+
+a.img:hover {
+    opacity: 0.8;
+    transition: opacity 0.1s ease-in-out 0s;
+}
