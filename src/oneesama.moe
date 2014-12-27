@@ -3,10 +3,10 @@ server {
 	listen [::]:80;
 
 	root /var/www/oneesama.moe;
-	index index.php index.html index.htm;
+	index index.html index.htm;
 
 	# Make site accessible from http://localhost/
-	server_name oneesama.moe www.oneesama.moe;
+	server_name oneesama.moe;
 
 	location / {
 		# First attempt to serve request as file, then
